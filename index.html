@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formularz zadanie 12051</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/karol.a.nowakowski@gmail.com" method="POST">
+
+        <label for="imie">Imię: <input type="text" name="imie" id="imie"></label>
+
+        <br>
+        <label for="nazwisko">Nazwisko: <input type="text" name="nazwisko" id="nazwisko"></label>
+
+        <br>
+        <label for="email">Email: <input type="email" name="email" id="email"></label>
+
+        <br>
+        <label for="tel">Telefon: <input type="tel" name="telefon" id="tel"></label>
+
+        <br>
+        <label for="miasto">Wybierz miasto:
+            <br>
+            <select name="miasto" id="miasto">
+                <option value="Kraków">Kraków</option>
+                <option value="Warszawa">Warszawa</option>
+                <option value="Gdańsk">Gdańsk</option>
+            </select>
+
+        </label>
+
+        <br>
+        <label for="mezczyzna"><input type="radio" name="plec" id="mezczyzna" value="mezczyzna">Meżczyzna</label>
+
+        <br>
+        <label for="kobieta"><input type="radio" name="plec" id="kobieta" value="kobieta">Kobieta</label>
+
+        <br>
+        <label for="zgoda"><input type="checkbox" name="zgoda" id="zgoda" required>Wyrażam zgodę na przetwarzanie danych osobowych.</label>
+
+        <br>
+        <label for="textarea">Wiadomość:
+            <br>
+            <textarea name="wiadomosc" id="textarea" cols="30" rows="10"></textarea>
+        </label>
+
+        <br>
+        <input type="submit" value="Wyślij">
+        
+
+    </form>
+</body>
+
+</html>
